@@ -32,11 +32,11 @@ In the queue, only two operations are allowed, enqueue and dequeue. Enqueue mean
 
 ### Applications of Queue
 
--Data Buffers
--Asynchronous data transfer (file IO, pipes, sockets).
--Allotting requests on a shared resource (printer, processor).
--Traffic analysis.
--Determine the number of cashiers to have at a supermarket.
+- Data Buffers
+- Asynchronous data transfer (file IO, pipes, sockets).
+- Allotting requests on a shared resource (printer, processor).
+- Traffic analysis.
+- Determine the number of cashiers to have at a supermarket.
 
 
 
