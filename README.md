@@ -4,7 +4,7 @@
 
 ### Stacks: What are they?
 
-A stack is an ordered list where all insertions or deletions happen at one end, called the "top." A stack is also a limited-access data structure since you can only access elements from the top, which means stacks adhere to the "Last-In, First-Out" rule.
+A stack is an ordered list where all insertions or deletions happen at one end, called the "top." A stack is also a limited-access data structure since you can only access elements from the top, which means stacks adhere to the "Last-In, First-Out" (LIFO) rule.
 
 ![](https://memegene.net/sites/default/files/wallpaper/plates-clipart/188031/plates-clipart-stacked-plate-188031-9504896.jpg)
 
@@ -35,8 +35,8 @@ The call stack records the function calls that are made in a program. Each funct
 
 1) Create an empty stack.
 2) Traverse the expression string.
-    a) If the current character is a starting bracket (‘(‘ or ‘{‘ or ‘[‘) then push it to stack.
-    b) If the current character is a closing bracket (‘)’ or ‘}’ or ‘]’) then pop from stack. If the popped character matches the starting bracket then return true. Else, the parentheses are not balanced and the function returns false.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a) If the current character is a starting bracket (‘(‘ or ‘{‘ or ‘[‘) then push it to stack.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) If the current character is a closing bracket (‘)’ or ‘}’ or ‘]’) then pop from stack. If the popped character matches the starting bracket then return true. Else, the parentheses are not balanced and the function returns false.
 3) After complete traversal, if there are any starting brackets left in stack then the express is “not balanced”.
 
 
@@ -82,7 +82,7 @@ Deque is a queue data structure that allows inserting items and deleting items a
 - deleteFront(): deletes an item from the front of the deque
 - deleteLast(): deletes an item from the rear of the deque
 
-#### Imnplementation
+#### Implementation
 
 Deques can be implemented using a doubly linked list or a circular array. Time complexity in both is O(1).
 
