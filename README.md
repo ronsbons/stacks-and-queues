@@ -63,9 +63,7 @@ In the queue, only two operations are allowed, enqueue and dequeue. Enqueue mean
 ### Examples
 
 - A line of customers at the grocery store
-- A single-lane one-way road
 - Call center phone systems
-- Printers print jobs in order they're submitted
 - Priority queue - values come out in order by priority, instead of FIFO. An element of highest priority always appears at the front of the queue. Operating systems use priority queues for load balancing on servers.
 
 ### Questions Solved Using Queues
