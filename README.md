@@ -19,8 +19,26 @@ The **call stack** is one example of a stack. We've encountered it many times wh
 The call stack records the function calls that are made in a program. Each function creates a frame that is "pushed" to the top of the stack. This frame "pops" off once it returns its value.
 
 ### Examples
+- A stack of plates in a cupboard
+- Reversing a string
+- The undo tool in text editors
 
 ### Questions Solved Using Stacks
+**To reverse a string using a stack:**
+
+1) Create an empty stack.
+2) One by one push all characters of string to stack.
+3) One by one pop all characters from stack and put 
+   them back to string.
+
+**Check for balanced parentheses in an expression:**
+
+1) Create an empty stack.
+2) Traverse the expression string.
+    a) If the current character is a starting bracket (‘(‘ or ‘{‘ or ‘[‘) then push it to stack.
+    b) If the current character is a closing bracket (‘)’ or ‘}’ or ‘]’) then pop from stack. If the popped character matches the starting bracket then return true. Else, the parentheses are not balanced and the function returns false.
+3) After complete traversal, if there are any starting brackets left in stack then the express is “not balanced”.
+
 
 ## Queues
 
