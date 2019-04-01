@@ -24,6 +24,22 @@ The call stack records the function calls that are made in a program. Each funct
 
 ## Queues
 
+Queues are implemented using a First-In-Fist-Out (FIFO) principle, meaning that the items are removed from the list in exactly the same order in which they were added to it. For example, waiting in line at a fast food restaurant, whoever is in the front of the line will be helped first, and new customers are entered at the back of the line.
+
+In the queue, only two operations are allowed, enqueue and dequeue. Enqueue means to insert an item into the back of the queue, dequeue means removing the front item.
+
+![](https://techdifferences.com/wp-content/uploads/2017/07/queue.jpg)
+
+### Applications of Queue
+
+-Data Buffers
+-Asynchronous data transfer (file IO, pipes, sockets).
+-Allotting requests on a shared resource (printer, processor).
+-Traffic analysis.
+-Determine the number of cashiers to have at a supermarket.
+
+
+
 ### Examples
 
 - A line of customers at the grocery store
