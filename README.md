@@ -36,9 +36,9 @@ The call stack records the function calls that are made in a program. Each funct
 1) Create an empty stack.
 2) Traverse the expression string.
 
-   a) If the current character is a starting bracket (‘(‘ or ‘{‘ or ‘[‘) then push it to stack.
+   a) If the current character is a starting bracket ‘(‘ or ‘{‘ or ‘[‘ then push it to stack.
 
-   b) If the current character is a closing bracket (‘)’ or ‘}’ or ‘]’) then pop from stack. If the popped character matches the starting bracket then return true. Else, the parentheses are not balanced and the function returns false.
+   b) If the current character is a closing bracket ‘)’ or ‘}’ or ‘]’ then pop from stack. If the popped character matches the starting bracket then return true. Else, the parentheses are not balanced and the function returns false.
 3) After complete traversal, if there are any starting brackets left in stack then the expression is “not balanced”.
 
 
